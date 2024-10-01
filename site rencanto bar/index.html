@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recanto Bar</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+   <link rel="shortcut icon" href="imagem/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <!--GOOGLE FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+     <!-- LINK SWIPER's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="background-bar"> 
+    <!--CABEÇAlhO-->
+<header id="header">     
+  <div class="container">
+    <div class="flex">
+        <div class="logo">  
+            <img src="imagem/Logo.png" alt="logo" width="150px">
+        </div>    <!--FIMLOGO--> 
+
+    <div>
+        <h1>Recanto Bar</h1>
+    </div>
+
+    <nav>
+  
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+        </ul>
+
+        <div class="btn-contato">
+            <a href="#contato">
+                <button>Contato</button>
+            </a>
+        </div><!--final btn contato-->
+    </nav>
+  </div>
+  </div>
+</header> <!--fim cabeçalho-->
+
+<section id="destaque">
+    <h1>Bem vindos ao <span> Recanto Bar!</span></h1>
+    <br>
+    <p>Ambiente e Atmosfera: O Recanto Bar é um espaço acolhedor e sofisticado, projetado para proporcionar uma experiência única e memorável.
+     
+      Com uma decoração que combina elementos rústicos e modernos, o ambiente é iluminado por luzes suaves que criam uma atmosfera intimista. 
+      
+      Móveis confortáveis e detalhes em madeira natural convidam os clientes a relaxar e desfrutar de momentos especiais.</p>
+</section> <!--FIM DESTAQUE-->
+</div> <!--FIM BACKGROUND -->
+
+    <!--FIM DO CABEÇARIO-->
+
+<main> <!--CONTEUDO PRINCIPAL-->
+
+    <section id="sobre">
+      <div class="txt-sobre">
+        <h2>Nossos serviços</h2>
+        <br>
+        <p>Serviço: A equipe do Recanto Bar é dedicada e atenta, proporcionando um atendimento excepcional. Os bartenders e garçons estão sempre prontos para oferecer recomendações personalizadas, garantindo que cada visita seja uma experiência única e satisfatória.
+        <br>
+        <br>
+        Eventos e Entretenimento: O Recanto Bar também é um espaço versátil para eventos e celebrações. Com uma programação regular de música ao vivo, noites temáticas e degustações, o bar se torna um ponto de encontro vibrante para amigos, casais e grupos.
+        <br>
+        <br>
+        O Recanto Bar é mais do que um simples restaurante; é um refúgio onde sabores, amizade e momentos inesquecíveis se encontram. Ideal para quem busca um espaço que una conforto, qualidade e elegância.
+        </p>
+        <img src="imagem/drink55.webp" alt="pao" width="370px">
+        <img src="imagem/comida1.jpg" alt="cafe" width="230px">
+        <img src="imagem/comida2.jpg" alt="pao-queijo" width="200px" height="154px">
+
+      </div>
+    </section> <!--FIM SOBRE-->
+
+   <div class="background-cardapio"></div>
+    <section id="cardapio">
+    <div class="titulo2">
+        <h2>Conheça nosso Cardápio:</h2>
+      </div>
+
+         <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper"> 
+      <div class="swiper-slide"> <!--slide 1-->
+        <div class="card">
+         <div class="card-img">
+            <img src="imagem/bolinhodebacalhau.avif" class="img" alt="">
+         </div>  
+         <div class="card-content">
+            <h5 class="title-card">Bolinho de Bacalhau</h5>
+            <p class="content-card">Nossos bolinhos são feitos com bacalhau desfiado de alta qualidade, misturado a batatas macias e temperos frescos.</p>
+
+            <button class="button">Descrição</button>
+
+         </div>
+        </div>
+      </div> <!--fim slide 1-->
+      <div class="swiper-slide">
+        <div class="card">
+            <div class="card-img">
+               <img src="imagem/torresmoi.webp" class="img" alt="">
+            </div>  
+            <div class="card-content">
+               <h5 class="title-card">Torresmo</h5>
+               <p class="content-card">Nossos torresmos são preparados com carne de porco selecionada, cuidadosamente temperada, cozida e frita até a perfeição.
+               </p>
+   
+               <button class="button">Descrição</button>
+               
+            </div>
+           </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <div class="card-img">
+               <img src="imagem/batatarustica.jpg" class="img" alt="">
+            </div>  
+            <div class="card-content">
+               <h5 class="title-card">Batata Rústica</h5>
+               <p class="content-card"> Gomos de batata assados até ficarem dourados e crocantes, temperados com ervas frescas. Servidas quentes, acompanham um molho aioli caseiro ou chimichurri. </p>
+   
+               <button class="button">Descrição</button>
+   
+            </div>
+           </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <div class="card-img">
+               <img src="imagem/quibe.jfif" class="img" alt="">
+            </div>  
+            <div class="card-content">
+               <h5 class="title-card">Quibe</h5>
+               <p class="content-card">Uma iguaria deliciosa, feita com trigo para quibe, carne moída de alta qualidade e temperos frescos. </p>
+   
+               <button class="button">Descrição</button>
+   
+            </div>
+           </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <div class="card-img">
+               <img src="imagem/framgo22.jfif" class="img" alt="">
+            </div>  
+            <div class="card-content">
+               <h5 class="title-card">Frango à passarinho</h5>
+               <p class="content-card">Deliciosos pedaços de frango marinados e temperados, fritos até ficarem dourados e crocantes.</p>
+   
+               <button class="button">Descrição</button>
+   
+            </div>
+           </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <div class="card-img">
+               <img src="imagem/ginmule.webp" class="img" alt="">
+            </div>  
+            <div class="card-content">
+               <h5 class="title-card">Gin Mule</h5>
+               <p class="content-card">Uma refrescante e sofisticada combinação de gin, suco de limão fresco e ginger beer, servida sobre gelo e decorada com folhas de hortelã.</p>
+   
+               <button class="button">Descrição</button>
+   
+            </div>
+           </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <div class="card-img">
+               <img src="imagem/caipirinha22.webp" class="img" alt="">
+            </div>  
+            <div class="card-content">
+               <h5 class="title-card">Caipirinha</h5>
+               <p class="content-card">Feita com cachaça de qualidade, limão fresco cortado e açúcar, esta bebida é macerada para liberar todo o sabor cítrico. </p>
+   
+               <button class="button">Descrição</button>
+   
+            </div>
+           </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <div class="card-img">
+               <img src="imagem/gintonica.webp" class="img" alt="">
+            </div>  
+            <div class="card-content">
+               <h5 class="title-card">Gin Tônica</h5>
+               <p class="content-card"> Uma combinação perfeita de gin premium e água tônica, servida com muito gelo e decorada com fatias de limão ou laranja e ramos de ervas aromáticas.</p>
+   
+               <button class="button">Descrição</button>
+   
+            </div>
+           </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <div class="card-img">
+               <img src="imagem/lagoaazul.jfif" class="img" alt="">
+            </div>  
+            <div class="card-content">
+               <h5 class="title-card">Lagoa Azul</h5>
+               <p class="content-card">Combinação de curaçau blue, vodka e suco de limão, que resulta em uma bebida de cor irresistível. </p>
+   
+               <button class="button">Descrição</button>
+   
+            </div>
+           </div>
+      </div>
+    </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+        
+    </section> <!--FIM CARDAPIO-->
+   </div>
+   <section id="contato">
+    <div class="background-contato">
+        <div class="titulo-contato">
+         <h2>Contato</h2>
+       </div>
+       
+    <div class="txt-contato">
+    <p>Horário de funcionamento:
+      <br>
+        -Terça a Quinta: 12:00 às 23:00
+        <br>
+        -Sexta a Domingo 13:00 às 00:00 
+        <br> <br>
+     <i class="bi bi-whatsapp"> (31)9 5694-1372</i> 
+     <br>            <!--icone-->
+     <i class="bi bi-instagram"> RecantoBar </i>
+     <br>
+     <i class="bi bi-geo-alt-fill"> Av. Getúlio Vargas, 900  Savassi, Belo Horizonte</i>
+     <br>
+    </div>
+        <div class="mapbox">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15002.98476741586!2d-43.9523168610919!3d-19.935097575014137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699db6b0568ab%3A0x5faa6ef4447650bb!2sSavassi%2C%20Belo%20Horizonte%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1727786843977!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+   
+  </div> <!--background-contato-->
+   </section> <!--FIM CONTATO-->
+
+</main> <!--FIM CONTEUDO PRINCIPAL-->
+
+<footer> <!--RODAPE-->
+    <div class="FooterContainer">
+        <div class="socialIcons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-instagram"></i>
+        </div>
+      
+    </div>
+    <div class="footerbottom">
+        <a href="politica.html"> &copy; 2024 Recanto Bar. Todos os direitos reservados.</a>
+    </div>
+</footer> <!--FIM RODAPE-->
+
+ <!-- Swiper JS -->
+    
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation:{
+        nextEl:".swiper-button-next",
+        prevEl:".swiper-button-prev",
+      },
+    });
+  </script>
+ <script src="js.js"></script>
+ 
+
+</body>
+</html>
